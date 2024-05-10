@@ -7,7 +7,6 @@
     gap:10rem;
     text-align: center;
     
-
 }
 
 .welcome_text__cont{
@@ -141,7 +140,7 @@ img {
 }
 
 #abt2{
-    padding-top: 120px;
+    padding-top: 100px;
     display: flex;
     width:80%;
     margin:0 auto;
@@ -153,4 +152,17 @@ img {
 }
 #abt2 p{
     font-size: 35px;
+}
+
+#contact{
+    padding-top: 120px;
+    display: flex;
+    width:80%;
+    margin:0 auto;
+}
+
+#contact h1{
+    font-size: 120px;
+    color:red;
+    text-align: center;
 }

@@ -5,28 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-</head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
 <body>
-    <section class="header">
+    <section class="header" >
         <nav>
             <a href="home.html"> <img src= "logo.png"></a>
             <div class="nav-links">
+                <!-- <i class="fa-solid fa-xmark"></i> -->
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Sign Up</a></li>
-                    <li><a href="">Login</a></li>
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href='#welcome'>Home</a></li>
+                    <li><a href='#abt'>About Us</a></li>
+                    <li><a href=''>Contact</a></li>
                 </ul>
-            </div>
+            </div> 
+            <!-- <i class="fa-solid fa-bars"></i> -->
         </nav>
     </section>
 
-    <h1>
-        Welcome to our website
-    </h1>
+    <section id="welcome">
+        <div class="welcome_text__cont">
+            <div>Welcome</div>
+            <div>To Our</div>    
+            <div>Website</div>
+        </div>
+        <div id="login-container">
+            <form id="login-form">
+                <input type="text" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <input type="submit" value="Login">
+                <button id="new-user">
+                    New User? Sign Up
+                </button>
+            </form>
+            
+        </div>
+    </section>
+
+    <section id="abt">
+        <div>
+            <!-- Text on the left side -->
+            <h1>Your one-stop destination for small business loans</h1>
+            <h3>Explore our loan comparison tool today and discover the perfect loan for your small business.</h3>
+            <p>We provide a wide range of services to help you in your daily life.</p>
+            <ul>
+                <li>Grow their business</li>
+                <li>Expand their operations</li>
+                <li>Fund their projects</li>
+            </ul>
+        </div>
+        <div>
+            <!-- Button at the top right -->
+            <button class="abt_btn">Sign up now to access our portal</button>
+            <!-- Image below the button -->
+            <img src="./assets/logo.png" alt="Your Image">
+        </div>
+    </section>
+
 </body>
 </html>

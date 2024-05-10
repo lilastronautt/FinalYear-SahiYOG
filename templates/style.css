@@ -4,7 +4,7 @@
  
 }
 body{
-    background-color: #fdf3e3;
+    background-color: #f9edd3;
 }
 nav {
     display: flex;
@@ -54,11 +54,18 @@ nav img{
     content: '';
     width: 0%;
     height: 2px;
-    background: red;
+    background:rgb(250, 20, 20);
     display: block;
     margin: auto;
     transition: 0.5s;
 }
 .nav-links ul li:hover::after{
     width: 100%;
+}
+
+h1{
+    color: rgb(250, 20, 20);
+    font-size: 130px;
+    padding-top: 100px;
+    padding-left: 50px;
 }

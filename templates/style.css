@@ -1,7 +1,7 @@
-*{ margin: 0;
+*{ 
+margin: 0;
    padding: 0;
    font-family: "Poppins", sans-serif;
- 
 }
 body{
     background-color: #ffffff;
@@ -13,7 +13,10 @@ nav {
     justify-content: space-between;
     align-items: center;
     background-color:black;
-    position: relative;
+    position: fixed;
+    left:0;
+    right:0;
+    top:0;
     z-index: 1;
 }
 nav img{
@@ -63,16 +66,7 @@ nav img{
     width: 100%;
 }
 
-.header h1{
-    /* width: 90%; */
-    color: rgb(250, 20, 20);
-    font-size: 120px;
-    top: 15%;
-    left: 8%;
-    position: relative;
-    margin: 1px;
-    
-}
+
 
  nav .fa{
     display: none;
@@ -94,16 +88,5 @@ nav img{
         text-align: left;
         z-index: 2;
     }
-
-}
-
-
-.abt{
-text-align: left;
-/* width: 80%; */
-margin: auto;
-padding: 20px;
-font-size: 2.3vw;
-
 
 }

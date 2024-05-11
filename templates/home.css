@@ -11,7 +11,7 @@
 
 .welcome_text__cont{
     font-size: 120px;
-    color:red;
+    color:rgb(205, 71, 71);
     font-weight:bolder;
 }
 
@@ -62,7 +62,7 @@
 }
 
 #login-form input[type="submit"]:hover {
-    background-color: rgb(205, 71, 71);
+    background-color: red;
 }
 
 #new-user {
@@ -128,8 +128,9 @@
 
 img {
     max-width: 100%;
-    max-height: 60%;
+    max-height: 70%;
     flex: 1;
+    padding-left: 50px;
 }
 
 .page2{

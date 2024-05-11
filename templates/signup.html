@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signup Form</title>
+  <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <nav>
+        <a href="home.html"> <img src= "logo.png"></a>
+        <div class="nav-links">
+            <!-- <i class="fa-solid fa-xmark"></i> -->
+            <ul>
+                <li><a href='#welcome'>Home</a></li>
+                <li><a href='#abt'>About Us</a></li>
+                <li><a href='#contact'>Contact</a></li>
+            </ul>
+        </div> 
+        <!-- <i class="fa-solid fa-bars"></i> -->
+    </nav>
+<div class="container">
+  <h1>Signup Form</h1>
+  <form action="#" method="post">
+    <div class="form-group">
+      <label for="firstName">First Name</label>
+      <input type="text" id="firstName" name="firstName" required>
+    </div>
+    <div class="form-group">
+      <label for="middleName">Middle Name</label>
+      <input type="text" id="middleName" name="middleName" required>
+    </div>
+    <div class="form-group">
+      <label for="lastName">Last Name</label>
+      <input type="text" id="lastName" name="lastName" required>
+    </div>
+    <div class="form-group">
+      <label for="contactNumber">Contact Number</label>
+      <input type="tel" id="contactNumber" name="contactNumber" pattern="[0-9]{10}" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <label for="age">Age</label>
+      <input type="number" id="age" name="age" required>
+    </div>
+    <div class="form-group">
+      <label for="gender">Gender</label>
+      <select id="gender" name="gender" required>
+        <option value="">Select Gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="businessName">Business Name</label>
+      <input type="text" id="businessName" name="businessName" required>
+    </div>
+    <div class="form-group">
+      <label for="businessCategory">Business Category</label>
+      <select id="businessCategory" name="businessCategory" required>
+        <option value="">Select Category</option>
+        <option value="Private">Private</option>
+        <option value="Public">Public</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <input type="submit" value="Sign Up">
+    </div>
+  </form>
+</div>
+
+</body>
+</html>

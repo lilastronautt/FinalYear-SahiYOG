@@ -98,6 +98,9 @@
     display: flex;
     width:80%;
     margin:0 auto;
+    /* top: 50%;
+     */
+     padding-top: 130px;
 }
 
 #abt  h1{

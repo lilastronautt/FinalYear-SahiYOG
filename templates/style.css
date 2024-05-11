@@ -76,9 +76,9 @@
     
     
     
-     nav .fa{
+     /* nav .fa{
         display: none;
-     }
+     } */
     @media(max-width:800px){
         .text-box h1{
             font-size: 5vm;
@@ -95,6 +95,4 @@
             right: 0;
             text-align: left;
             z-index: 2;
-        }
-    
-    }
+                }}

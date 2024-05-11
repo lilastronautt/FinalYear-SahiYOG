@@ -6,6 +6,15 @@
     flex-direction: row;
     gap:10rem;
     text-align: center;
+
+
+
+    min-height: 100vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(bg_c1.jpg);
+        background-position: center;
+        background-size: cover;
+        position: relative;   
     
 }
 
@@ -36,7 +45,7 @@
 }
 
 #login-form {
-    border: 4px solid black;
+    border: 4px solid rgb(129, 124, 124);
     border-radius: 20px;
     padding: 20px;
 }

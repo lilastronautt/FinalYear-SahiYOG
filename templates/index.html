@@ -4,21 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loan Calculator</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <nav>
+        <a href="home.html"> <img src= "logo.png"></a>
+        <div class="nav-links">
+            <!-- <i class="fa-solid fa-xmark"></i> -->
+            <ul>
+                <li><a href='#welcome'>Home</a></li>
+                <li><a href='#abt'>About Us</a></li>
+                <li><a href='#contact'>Contact</a></li>
+            </ul>
+        </div> 
+        <!-- <i class="fa-solid fa-bars"></i> -->
+    </nav>
+<div class="container">
     <h1>Loan Calculator</h1>
     <form action="/submit" method="POST">
-        <label for="loan_amnt">Loan Amount:</label>
-        <input type="text" id="loan_amnt" name="loan_amnt">
-        <label for="selected_interest">Interest Rate:</label>
-        <input type="text" id="selected_interest" name="selected_interest">
-        <label for="year">Experience in current business:</label>
-        <input type="text" id="year" name="year">
-        <label for="turnover">Yearly Turnover:</label>
-        <input type="text" id="turnover" name="turnover">
-        <label for="family_inc">Net Income:</label>
-        <input type="text" id="family_inc" name="family_inc">
-        <button type="submit">Calculate</button>
-    </form>
+        <div class="formgroup">
+            <label for="loan_amnt">Loan Amount:</label>
+            <input type="text" id="loan_amnt" name="loan_amnt">
+        </div>
+        <div class="formgroup">
+            <label for="selected_interest">Interest Rate:</label>
+            <input type="text" id="selected_interest" name="selected_interest">
+        </div>
+        <div class="formgroup">
+            <label for="year">Experience in current business:</label>
+            <input type="text" id="year" name="year">
+        </div>
+        <div class="formgroup">
+            <label for="turnover">Yearly Turnover:</label>
+            <input type="text" id="turnover" name="turnover">
+        </div>
+        <div class="formgroup">
+            <label for="family_inc">Net Income:</label>
+            <input type="text" id="family_inc" name="family_inc">
+        </div>
+        <div class="formgroup">
+         <button>Calculate</button>
+        </div>
+    </form>    
+</div>
 </body>
 </html>

@@ -1,7 +1,7 @@
 *{ 
-    {% comment %} margin: 0;
-       padding: 0;
-       font-family: "Poppins", sans-serif;
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins", sans-serif;
     }
     /* .header{
         min-height: 100vh;
@@ -10,7 +10,7 @@
         background-position: center;
         background-size: cover;
         position: relative;   
-    } */ {% endcomment %}
+    } */ 
     /* body{
         background-color: #ffffff;
     } */

@@ -4,9 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loan Calculator Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow-x: auto; /* Add horizontal scroll if needed */
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .results-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            white-space: nowrap; /* Prevent text wrapping in table cells */
+        }
+        .results-table th,
+        .results-table td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+            white-space: nowrap; /* Prevent text wrapping in table cells */
+        }
+        .results-table th {
+            background-color: #f4f4f4;
+        }
+    </style>
 </head>
 <body>
-    <h1>Loan Calculator Results</h1>
-    {{ results|safe }}
+    <div class="container">
+        <h1>Loan Calculator Results</h1>
+        <div class="table-responsive">
+            <table class="results-table">
+                <thead>
+                    <tr>
+                        <th>Loan Provider</th>
+                        <th>Maximum Loan Amount</th>
+                        <th>Interest Rate</th>
+                        <th>Business Turnover</th>
+                        <th>Annual Income</th>
+                        <th>Years in Business</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{ results|safe }}
+                </tbody>
+            </table>
+        </div>
+    </div>
 </body>
 </html>

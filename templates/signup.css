@@ -139,12 +139,14 @@
 } */
 
 body{
+  padding-top: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
 }
 .container{
+ 
   max-width: 650px;
   padding: 28px;
   margin: 0 28px;

@@ -109,7 +109,7 @@
   }
 h1{
     text-align: center;
-    color: rgba(250,20,20);
+    color: red;
     font-weight: bold;
 }
 .formgroup{
@@ -144,4 +144,5 @@ h1{
 }
 body{
     padding-top:80px;
+    background-color:lightgray ;
 }

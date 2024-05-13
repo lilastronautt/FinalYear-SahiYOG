@@ -76,6 +76,7 @@
     color: white;
     border: none;
     cursor: pointer;
+    width:60%
 }
 
 #login-form input[type="submit"]:hover {
